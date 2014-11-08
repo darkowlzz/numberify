@@ -14,8 +14,6 @@ setup(
     long_description=readme,
     packages=find_packages(),
     setup_requires=['nose'],
-    scripts = [
-        'numberify/numberify.py'    
-    ],
+    scripts=['numberify/numberify.py'],
     test_suite='test'
 )
