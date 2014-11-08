@@ -6,7 +6,7 @@ Add line number to every line of a given file.
 Usage
 =====
 
-`numberify` <filename>
+`numberify <filename>`
 
 Tests
 =====
