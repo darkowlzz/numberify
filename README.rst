@@ -1,6 +1,9 @@
 Numberify
 =========
 
+.. image:: https://badge.fury.io/py/numberify.png
+    :target: http://badge.fury.io/py/numberify
+    
 .. image:: https://travis-ci.org/darkowlzz/numberify.svg?branch=master
     :target: https://travis-ci.org/darkowlzz/numberify
 
