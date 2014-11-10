@@ -7,6 +7,9 @@ Numberify
 .. image:: https://travis-ci.org/darkowlzz/numberify.svg?branch=master
     :target: https://travis-ci.org/darkowlzz/numberify
 
+.. image:: https://coveralls.io/repos/darkowlzz/numberify/badge.png
+    :target: https://coveralls.io/r/darkowlzz/numberify
+
 Add line number to every line of a given file.
 
 Installation

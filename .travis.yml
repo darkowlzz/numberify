@@ -6,3 +6,5 @@ script:
   - flake8 .
   - tox
   - nosetests -v
+after_success:
+  - coveralls
