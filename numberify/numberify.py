@@ -31,7 +31,11 @@ class Numberify():
             fd = open(filename, 'r+')
             lines = fd.readlines()
             for i in range(len(lines)):
-                lines[i] = str(i+1) + ' ' + lines[i]
+                if lines[i][0:len(str(i+1))] != str(i+1):
+                    lines[i] = str(i+1) + ' ' + lines[i]
+                else:
+                    print "File already numbered"
+                    return False
             fd.seek(0)
             fd.writelines(lines)
             fd.close()
