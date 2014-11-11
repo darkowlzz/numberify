@@ -12,7 +12,10 @@ def test_numberify_file():
     '''testing numberify_file'''
     num = Numberify()
     copyfile(file1, file2)
-    num.numberify_file(file2)
+    result = num.numberify_file(file2)
+    assert result is True
+    result = num.numberify_file(file2)
+    assert result is False
     fd = open(file2, 'r')
     lines = fd.readlines()
     length = len(lines)
